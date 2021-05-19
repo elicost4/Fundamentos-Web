@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -16,28 +16,55 @@
             <a href="contato.html"> Contato </a>
         </li>        
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome"> Nome: </label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email"> Email: </label> <br>
-        <input type="text" id="email">
-        <br>
-        <br>
-        <label for="assunto"> Assunto: </label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="7"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
-    <h3>Endereço:</h3>
+    <div class="container-contato mb-70">
+        <div>
+            <form>
+                <label for="nome"> Nome: </label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email"> Email: </label> <br>
+                <input type="text" id="email">
+                <br>
+                <br>
+                <label for="assunto"> Assunto: </label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="7"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50">
+            <h3>Endereço:</h3>
 
-    <p>Av. Brg. Faria Lima, 3477</p>
-    <p>Itaim Bibi, São Paulo - SP</p>
-    <p>CEP: 04538-133</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.2561246169118!2d-46.685161341496354!3d-23.58595502928336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744e0ebff5b%3A0x769bf4a32f914782!2sGoogle%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1621359519944!5m2!1spt-BR!2sbr" width="500" height="350" frameborder="1" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>Av. Brg. Faria Lima, 3477</p>
+            <p>Itaim Bibi, São Paulo - SP</p>
+            <p>CEP: 04538-133</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.2561246169118!2d-46.685161341496354!3d-23.58595502928336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5744e0ebff5b%3A0x769bf4a32f914782!2sGoogle%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1621359519944!5m2!1spt-BR!2sbr" width="400" height="250" frameborder="1" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <hr color=#a5320f size="5">
+    <footer>
+        <div class="container">
+            <a href="http://www.github.com/elicost4" target="_blank">
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Facebook">
+            </a>
+            <a href="http://www.instagram.com/elicost4" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            <a href="http://www.linkedin.com/in/eliabecosta" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+                        
+        </div>
+        <p class="center size-copy">
+            Todos os direitos reservados Eliabe Costa &copy2021-2021
+        </p>
+        
+    </footer>
+    
+    
 </body>
 </html>

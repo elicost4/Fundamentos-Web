@@ -1,0 +1,78 @@
+/* Estilos da página index.html */
+.center {
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;    
+}
+
+#menu li {
+    display:inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#menu li a:hover {
+    color:rgba(97, 93, 88, 0.959)
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 35px;
+    height: 35px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(224, 177, 45);
+    color:#a5320f
+}
+.size-copy {
+    font-size: 16px;
+    color: #000000;
+}
+
+.bimg {
+    background-color: #a5320f;
+    border-radius: 50%;
+}
+
+iframe {
+    border: 7px solid;
+}
+
+
+/* Estilos da página contato.html */
+.container-contato{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
