@@ -54,6 +54,7 @@ body {
 .size-copy {
     font-size: 16px;
     color: #000000;
+    margin-bottom: 0%;
 }
 
 .bimg {
@@ -67,12 +68,6 @@ iframe {
 
 
 /* Estilos da página contato.html */
-.container-contato{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .ml-50 {
     margin-left: 50px;
 }
