@@ -12,18 +12,25 @@
     text-align: center;    
 }
 
-#menu li {
+#menu ul {
+    padding:20px;
+    padding-left: 5%;
+    background-color:#a5320f;
+}
+
+#menu ul li {
     display:inline;
-    padding: 15px;
+    padding: 60px;
+    
 }
 
 #menu li a {
     text-decoration: none;
-    color: black;
+    color: #e0b12d;
     font-size: 22px;
 }
 #menu li a:hover {
-    color:rgba(97, 93, 88, 0.959)
+    color:rgba(42, 172, 204, 0.959)
 }
 
 .p-30 {
@@ -48,8 +55,9 @@
 }
 
 body {
-    background-color: rgb(224, 177, 45);
-    color:#a5320f
+    background-color: #e0b12d;
+    color:#a5320f;
+    margin: 0%;
 }
 .size-copy {
     font-size: 16px;
@@ -66,8 +74,26 @@ iframe {
     border: 7px solid;
 }
 
+.marginEscopo {
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+h1 {
+    padding-right: 105mm;
+    padding-top: 30mm;
+}
+
 
 /* Estilos da página contato.html */
 .ml-50 {
     margin-left: 50px;
+}
+
+input {
+    background-color:#d8b659;
+}
+
+textarea {
+    background-color:#d8b659;
 }
